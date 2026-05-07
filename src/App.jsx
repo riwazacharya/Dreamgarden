@@ -1,6 +1,6 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import Navbar from './component/Navbar';
+import Navbar from './component/navbar';
 import Home from './pages/Home';
 
 // Simple placeholder for other pages
