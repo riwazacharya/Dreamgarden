@@ -1,0 +1,25 @@
+ 
+
+@import "tailwindcss";
+
+/* Keep your custom glass styles below this */
+.glass {
+  background: rgba(255, 255, 255, 0.03);
+  backdrop-filter: blur(12px);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+html {
+  scroll-behavior: smooth;
+}
+
+/* Custom Scrollbar for Luxury Feel */
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #050505;
+}
+::-webkit-scrollbar-thumb {
+  background: #c5a059;
+  border-radius: 10px;
+}
