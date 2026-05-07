@@ -1,6 +1,6 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import Navbar from './components/Navbar';
+import Navbar from './component/Navbar';
 import Home from './pages/Home';
 
 // Simple placeholder for other pages
@@ -12,7 +12,7 @@ function App() {
     <Router>
       <div className="bg-[#050505] min-h-screen text-white selection:bg-[#c5a059] selection:text-black">
         <Navbar />
-        
+
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/rooms" element={<RoomsPage />} />
